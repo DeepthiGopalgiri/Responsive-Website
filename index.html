@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Blog</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffd700, #ff8c00); 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  .description {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .food-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px auto;
+      padding: 10px;
+    }
+    .header h1 {
+      font-size: 28px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Delicious Food Blog</h1>
+  </div>
+  <div class="description">
+    <p>Welcome to our food blog! Here, you'll find mouthwatering recipes, cooking tips, and food adventures. Whether you're a seasoned chef or just starting out in the kitchen, we have something for everyone.</p>
+  </div>
+  <img class="food-image" src="pic.jpg" alt="Delicious Food">
+</div>
+</body>
+</html>
